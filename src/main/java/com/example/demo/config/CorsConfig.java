@@ -15,8 +15,8 @@ public class CorsConfig implements WebMvcConfigurer {
                         "http://localhost:8080",
                         "http://3.38.61.219", // 다운
                         "http://ec2-3-38-61-219.ap-northeast-2.compute.amazonaws.com/",
-                        "http://3.104.119.171", // 여울
-                        "http://ec2-3-104-119-171.ap-southeast-2.compute.amazonaws.com/",
+                        "http://43.200.129.17", // 여울
+                        "http://ec2-43-200-129-17.ap-northeast-2.compute.amazonaws.com/",
                         "http://43.202.26.168", // 주아
                         "http://ec2-43-202-26-168.ap-northeast-2.compute.amazonaws.com/")
 
