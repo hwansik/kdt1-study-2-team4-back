@@ -18,7 +18,9 @@ public class CorsConfig implements WebMvcConfigurer {
                         "http://43.200.129.17", // 여울
                         "http://ec2-43-200-129-17.ap-northeast-2.compute.amazonaws.com/",
                         "http://43.202.26.168", // 주아
-                        "http://ec2-43-202-26-168.ap-northeast-2.compute.amazonaws.com/")
+                        "http://ec2-43-202-26-168.ap-northeast-2.compute.amazonaws.com/",
+                        "http://3.36.11.5",
+                        "http://ec2-3-36-11-5.ap-northeast-2.compute.amazonaws.com")
 
                 .allowedMethods("GET", "POST", "PUT", "DELETE");
     }
