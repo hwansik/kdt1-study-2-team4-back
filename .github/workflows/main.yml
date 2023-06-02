@@ -78,8 +78,8 @@ jobs:
             fi
             echo "pass mysql-container"
 
-            if [[ "$(docker ps -qa --filter ancestor=" ]]; then
-              docker rm -f $(docker ps -qa --filter ancestor=ghcr.io/hwansik/kdt1-study-2-team4-back:latest)
+            if [[ "$(docker ps -qa --filter ancestor=backend-deploy-test/backend-deploy-test-server:latest)" ]]; then
+              docker rm -f $(docker ps -qa --filter ancestor=backend-deploy-test/backend-deploy-test-sever:latest)
             fi
             echo "pass ghcr.io/hwansik/kdt1-study-2-team4-back:latest"
 
