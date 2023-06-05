@@ -86,3 +86,4 @@ jobs:
             docker pull ghcr.io/hwansik/kdt1-study-2-team4-back:latest
             docker image prune -f
             docker logout
+            docker-compose up
